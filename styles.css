@@ -1,0 +1,34 @@
+body {
+  background-color: hsl(247, 82%, 66%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.title {
+  color: #DEC0F1;
+  padding: 0.5rem 4rem;
+  border: solid #EFD9CE;
+  margin: 5rem;
+}
+
+.input-box input {
+  border-radius: 10rem;
+  height: 3.5rem;
+  width: 35rem;
+  background-color: black;
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  
+}
+
+.todoList {
+  margin-top: 5rem;
+  font-size: 20px;
+}
+
+.clearButton {
+  margin-left: 1rem;
+}
